@@ -1,5 +1,5 @@
 # Ground station GUI for CanSat or OBC's
-Code for a CanSat or OBCs GUI ground station where different sensor data are displayed in real time. **No sensors needed to try it**.
+Code for a __CanSat__ or OBCs GUI ground station where different sensor data are displayed in real time. **No sensors needed to try it**.
 
 ![imagen](https://i.imgur.com/zDY3DnY.gif)
 
@@ -15,22 +15,22 @@ Code for a CanSat or OBCs GUI ground station where different sensor data are dis
 
 ___
 ## Support
-If you used this project or learned something please give this project a star to keep doing open source projects
+_if you used this project or learned something please give this project a star to keep doing open source projects_
 ___
 
 ## General info
-The purpose of this project is to make a GUI for the data transmitted by an OBC (on board computer) or a CanSat understandable at first sight through a text string on a serial port.
+The purpose of this project is to make a GUI for the data transmitted by an OBC (on board computer) or a __CanSat__ understandable at first sight through a text string on a serial port.
 
 
 This project is strongly related to
 another [rocket science and CanSat](https://github.com/el-NASA/POA) project. **It's still in development.**
 
 ### Bugs
-* Most of the times the text items disappear, i invite you to solve this.
+* _Most of the times the text items disappear, i invite you to solve this._
 
-* Sometimes it can't convert the first value of the list to int, but it solves it self by re-running it.
+* _Sometimes it can't convert the first value of the list to int, but it solves it self by re-running it._
 
-* the speed graph is under development, it grows to infinity.
+* _the speed graph is under development, it grows to infinity._
 ___
 ## Technologies
 Project is created with:
@@ -49,7 +49,7 @@ $ source env/bin/activate
 $ pip3 install -r requeriments.txt
 $ python3 main.py
 ```
-if you don't have the electronics you can still use it! When the terminal asks you to write a serial port, write anything and it will work, it will display random data. (but the text bug remains ;v).
+_if you don't have the electronics you can still use it! When the terminal asks you to write a serial port, write anything and it will work, it will display random data. (but the text bug remains ;v)._
 ___
 
 ## Setup Windows
